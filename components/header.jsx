@@ -5,18 +5,18 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link href="/" legacyBehavior>
-              <a>Film</a>
+            <Link href="/" className="a" >
+              Film
             </Link>
           </li>
           <li>
-            <Link href="/about" legacyBehavior>
-              <a>Hakkında</a>
+            <Link href="/about"className="a" >
+              Hakkında
             </Link>
           </li>
           <li>
-            <Link href="/blog" legacyBehavior>
-              <a>Dizi</a>
+            <Link href="/blog" className="a" >
+              Dizi
             </Link>
           </li>
         </ul>
@@ -32,16 +32,6 @@ export default function Header() {
           ul {
             display: flex;
             justify-content: center;
-            li {
-              a {
-                display: flex;
-                height: 65px;
-                align-items: center;
-                padding: 0 20px;
-                color: teal;
-                text-decoration: none;
-              }
-            }
           }
         `}
       </style>
