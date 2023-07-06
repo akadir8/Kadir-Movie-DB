@@ -9,11 +9,19 @@
 html,
 body {
   height: 100%;
-  font-family: '.ApplySystemUIFont', sans-serif
+  font-family: ".ApplySystemUIFont", sans-serif;
 }
 
 body {
-  background: #FFF1DC;
+  background: #fff1dc;
   text-align: center;
 }
 
+.a {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  padding: 0 20px;
+  color: teal;
+  text-decoration: none;
+}
